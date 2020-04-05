@@ -31,31 +31,47 @@ CREATE TABLE "Employee Information" (
 );
 
 CREATE TABLE "Department Employees" (
+    "id" serial   NOT NULL,
     "emp_no" Int   NOT NULL,
     "dept_no" varchar(50)   NOT NULL,
     "from_date" Date   NOT NULL,
-    "to_date" Date   NOT NULL
+    "to_date" Date   NOT NULL,
+    CONSTRAINT "pk_Department Employees" PRIMARY KEY (
+        "id"
+     )
 );
 
 CREATE TABLE "Department Managers" (
+    "id" serial   NOT NULL,
     "dept_no" varchar(50)   NOT NULL,
     "emp_no" Int   NOT NULL,
     "from_date" Date   NOT NULL,
-    "to_date" Date   NOT NULL
+    "to_date" Date   NOT NULL,
+    CONSTRAINT "pk_Department Managers" PRIMARY KEY (
+        "id"
+     )
 );
 
 CREATE TABLE "Salaries" (
+    "id" serial   NOT NULL,
     "emp_no" Int   NOT NULL,
     "salary" Int   NOT NULL,
     "from_date" Date   NOT NULL,
-    "to_date" Date   NOT NULL
+    "to_date" Date   NOT NULL,
+    CONSTRAINT "pk_Salaries" PRIMARY KEY (
+        "id"
+     )
 );
 
 CREATE TABLE "Titles" (
+    "id" serial   NOT NULL,
     "emp_no" Int   NOT NULL,
     "title" varchar(100)   NOT NULL,
     "from_date" Date   NOT NULL,
-    "to_date" Date   NOT NULL
+    "to_date" Date   NOT NULL,
+    CONSTRAINT "pk_Titles" PRIMARY KEY (
+        "id"
+     )
 );
 
 ALTER TABLE "Department Employees" ADD CONSTRAINT "fk_Department Employees_emp_no" FOREIGN KEY("emp_no")
