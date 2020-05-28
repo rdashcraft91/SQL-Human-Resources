@@ -1,4 +1,4 @@
-SQL Project
+# SQL Project
 
 1. The screen shot and png export of my ERD is saved in the sql-challenge folder.
 2. The .sql of the table schemata is saved in EmployeeSQL>input data.
