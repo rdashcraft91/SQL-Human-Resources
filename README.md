@@ -31,5 +31,5 @@ The sql code for these queries can be found in the EmployeeSQL folder.
 
 Additionally, I analyzed the newly created database information using SQL Alchemy in order to better visualize the data. Specifically, I created a histogram to visualize the most common salary ranges for employees and a bar chart of average salary by title. These charts can be seen below.
 
-![histogram](Table_DBD_export.png)
-![bar](Table_DBD_export.png)
+![histogram](SQLAlchemy_Analysis/AvgSalaryperTitle.png)
+![bar](SQLAlchemy_Analysis/SalaryperEmployee.png)
