@@ -1,6 +1,6 @@
 # SQL Project
 
-In this challenge, I was given the task to tranform six large CSV files full of data about a company's employees in the 1980s and 1990s, into useful and meaningful information. The original CSV files can be found in the input_data folder within the EmployeeSQL folder. The files contained information related to the company's departments, dempartment employees, department managers, employees, salaries, and titles. I needed to perform data modeling, engineering and analysis in order to accomplish my goals.
+In this challenge, I was given the task to tranform six large CSV files full of data about a company's employees in the 1980s and 1990s, into useful and meaningful information. The original CSV files can be found in the input_data folder within the EmployeeSQL folder. The files contained information related to the company's departments, dempartment employees, department managers, employees, salaries, and titles. I needed to perform data modeling, engineering and analysis in order to accomplish my goals. My full SQL script can be review in EmployeeSQL>main.sql.
 
 I began by creating an ERD to map my plan for combining the data into relevant and useful datasets, which can be seen below.
 
